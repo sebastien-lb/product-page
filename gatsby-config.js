@@ -21,7 +21,7 @@ module.exports = {
       `call-to-action`,
       `screenshots`,
       `testimonials`,
-      `subscribe`
+      // `subscribe`
     ],
 
     /* Configure the navigation menu */
@@ -30,7 +30,7 @@ module.exports = {
       {path: 'pricing', label: 'Pricing'},
       {path: 'screenshots', label: 'Screenshots'},
       {path: 'testimonials', label: 'Testimonials'},
-      {path: 'subscribe', label: 'Subscribe'},
+      // {path: 'subscribe', label: 'Subscribe'},
     ],
 
     /* Provide social media accounts. Remove or add new services. (The value 'fa' is the name of FontAwesome icon to display. Choose from here: https://fontawesome.com/cheatsheet/free/brands ) */

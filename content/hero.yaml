@@ -3,11 +3,11 @@ headline: The perfect template to showcase your awesome product and service.
 body: Aenean condimentum, lacus sit amet luctus lobortis, dolores et quas molestias excepturi enim tellus ultrices elit, amet consequat enim elit noneas sit amet luctu. Quis nostrum exercitationem ullam corporis suscipit laboriosam.
 
 button1:
-  label: Free Trial
-  to: '/#'
+  label: Buy now
+  to: "/#pricing"
 
 button2:
   label: Learn More
-  to: '/#features'
+  to: "/#features"
 
 image: images/hero-image.png

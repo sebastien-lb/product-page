@@ -6,6 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 
+import { handleFormSubmission } from '../services/stripe-purchase';
+
 export default () => {
 
   library.add(fas)
@@ -37,9 +39,9 @@ export default () => {
                   )}
                 </ul>
                 <footer className="plan-sign-up">
-                  <Link className="button" to={ plan.signup.to }>
+                  <button className="button" onClick={handleFormSubmission(plan.priceId)}>
                     { plan.signup.label }
-                  </Link>
+                  </button>
                 </footer>
               </div>
             </div>
