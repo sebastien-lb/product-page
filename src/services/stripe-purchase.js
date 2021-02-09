@@ -1,6 +1,6 @@
 import { loadStripe } from '@stripe/stripe-js'
 
-const BASE_URL = "http://localhost:9000";
+const BASE_URL = process.env.GATSBY_BASE_URL;
 
 let stripePromise;
 const getStripe = (key) => {
