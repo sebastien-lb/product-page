@@ -1,6 +1,6 @@
-# StyleShout Woo Ported to GatsbyJS
+# StyleShout Woo Ported to GatsbyJS with Stripe included
 
-Simple, clean and responsive landing page for your product or service. This is a [GatsbyJS](https://www.gatsbyjs.org/) port of  StyleShout's [Woo](https://www.styleshout.com/free-templates/woo/) template.
+Simple, clean and responsive landing page for your product or service. This is a [GatsbyJS](https://www.gatsbyjs.org/) port of StyleShout's [Woo](https://www.styleshout.com/free-templates/woo/) template.
 
 [**DEMO**](https://gatsby-starter-woo.netlify.app/)
 
@@ -9,9 +9,11 @@ Simple, clean and responsive landing page for your product or service. This is a
 ## Getting Started
 
 ### Prerequisites
+
 GatsbyJS should be installed in your local environment. See instructions [here](https://www.gatsbyjs.org/docs/preparing-your-environment/) for details.
 
 ### Installation
+
 1.  **Create a Gatsby site.**
 
     Use the Gatsby CLI to create a new site, specifying this starter.
@@ -112,17 +114,21 @@ siteMetadata: {
 ## Customising Content
 
 ### Landing page
+
 The content for the landing page can be found in the `content/` folder, in which each [YAML](https://cheat.readthedocs.io/en/latest/yaml.html) file corresponds to a particular section on the page.
 
 ### Additional pages
+
 To add more pages, just add a new `.js` file in the `src/pages/` directory and Gatsby will automatically create a new page with the same name as the file.
 
 These files are written in [JSX](https://www.gatsbyjs.org/docs/glossary/jsx/). A sample/style guide can be found [here](https://gatsby-starter-woo.netlify.app/demo/) [(source)](https://github.com/desmukh/gatsby-starter-woo/blob/master/src/pages/demo.js).
 
 ### Images
+
 Currently images are stored in the `static/` folder.
 
 ## Credits
+
 This theme was originally designed by [StyleShout](https://www.styleshout.com/free-templates/woo/) and was ported to Gatsby by [Fahad Desmukh](https://github.com/desmukh/).
 
 ## License
