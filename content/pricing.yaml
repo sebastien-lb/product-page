@@ -18,7 +18,7 @@ plans:
   - title: Standard
     fa: thumbs-up
     price: $9.99
-    priceId: price_1IJ0m7E7xI6rSWxjGh8S0gci
+    priceId: price_1IMGdNDuiKyCmhddWS41OmPV
     per: per month
     features:
       - 3GB Storage
@@ -33,7 +33,7 @@ plans:
   - title: Premium
     fa: star
     price: $19.99
-    priceId: price_1IJ0mnE7xI6rSWxj39StUPVb
+    priceId: price_1IQJDlDuiKyCmhddpYJNPpbj
     per: per month
     features:
       - 10GB Storage
@@ -48,7 +48,7 @@ plans:
   - title: Ultimate
     fa: trophy
     price: $29.99
-    priceId: price_1IJ0nGE7xI6rSWxj539BX6Q7
+    priceId: price_1IQJE9DuiKyCmhddAX9ZRoPo
     per: per month
     features:
       - 30GB Storage
